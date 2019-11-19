@@ -1,6 +1,10 @@
+// Scss Variables
+
 $black: #111;
 $red: #ff043c;
 $gray: #585858;
+
+// Scss media mixin
 
 @mixin laptop {
   @media screen and  (min-width: 1201px){
@@ -15,7 +19,7 @@ $gray: #585858;
 }
 
 
-
+// Basic Scss
 
 *{
   margin: 0;
@@ -64,6 +68,8 @@ body{
   font-weight: 300;
   color:$black;
 }
+
+// Scss section code
 
 .header__top{
   max-width: 1200px;
@@ -364,9 +370,8 @@ main{
       height: 206px;
     }
   }
-
-  
 }
+
 
 footer{
   display: block;
@@ -409,6 +414,7 @@ footer{
   }
 }
 
+// Scss media include
 
 
 @include laptop{
